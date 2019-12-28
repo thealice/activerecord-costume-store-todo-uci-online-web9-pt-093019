@@ -5,6 +5,7 @@ class CreateCostumes < ActiveRecord::Migration
       t.integer :price
       t.integer :size
       t.string :url
+      t.timestamp
   end
 end
 
